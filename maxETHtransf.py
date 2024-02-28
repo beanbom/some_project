@@ -4,7 +4,7 @@ import os
 import sys
 
 #Настройки:
-# 14 строка - RPC
+# 15 строка - RPC
 # 62 строка - gazlimit
 # 83 строка - chain ID
 
