@@ -52,7 +52,7 @@ def read_private_keys_and_receivers(private_keys_file, receivers_file):
     return private_keys, receivers
 
 def send_max_eth_if_gas_is_low(private_key, receiver, max_gas_price_gwei=1):
-    global last_successful_tx  # Используем глобальную переменную для хранения данных о последней успешной транзакции
+    global last_successful_tx  #Используем глобальную переменную для хранения данных о последней успешной транзакции
     receiver = web3.toChecksumAddress(receiver)
     account = web3.eth.account.privateKeyToAccount(private_key)
 
