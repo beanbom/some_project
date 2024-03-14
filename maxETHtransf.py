@@ -9,7 +9,7 @@ import sys
 # 83 строка - chain ID
 
 #Скрипт отправляет максимально возможное количество ETH с кошьков senders1.txt на кошельки(напр. суббакаунты) Receivers.txt
-#Выжидает нужный газ и отправляет
+#Выжидает нужный газ и отправляет legacy транзакцию
 
 # !Подключение к нужной сети!
 infura_url = "https://endpoints.omniatech.io/v1/arbitrum/one/public"
